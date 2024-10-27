@@ -12,6 +12,7 @@ class CategoriesScreen extends StatelessWidget {
         //backgroundColor: Theme.of(context).colorScheme.onPrimary,
       ),
       body: GridView(
+        padding: const EdgeInsets.all(20),
         children: DUMMY_CATEGORIES
             .map((catData) => CategoryItem(
                   catData.title,
